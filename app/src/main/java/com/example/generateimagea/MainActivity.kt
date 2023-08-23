@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             override fun getHeaders(): MutableMap<String, String> {
                 val params: MutableMap<String, String> = HashMap()
                 params["Content-Type"] = "application/json"
-                params["Authorization"] = "Bearer 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"
+                params["Authorization"] = "Bearer YOUR_API_KEY"
                 return params
             }
         }
